@@ -124,9 +124,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
+</html>
 
 
-  function enrollmentData() {
+function enrollmentData() {
 
     let fullname = document.getElementById("fullname").value;
     let email = document.getElementById("email").value;
@@ -170,7 +171,6 @@
     document.getElementById("duration").value = ""
 
 }
-
 
 .enrollment-section {
   background: linear-gradient(135deg, #4facfe, #00f2fe);
@@ -217,5 +217,3 @@ button.btn:hover {
     transform: translateY(0);
   }
 }
-
-</html>
