@@ -1,0 +1,45 @@
+.enrollment-section {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-card {
+  border-radius: 15px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+button.btn {
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+button.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
